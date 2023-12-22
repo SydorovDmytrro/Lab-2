@@ -1,0 +1,67 @@
+div{
+    width: 100%;
+}
+.positionimg{
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: -1;
+    width: 52px;
+    height: 52px;
+}
+.limg{
+    max-width: 30%;
+    height: auto;
+    float: left;
+    margin: 5px 10px 5px 0px;
+
+}
+.rimg{
+    max-width: 30%;
+    height: auto;
+    float: right;
+    margin: 5px 10px 5px 0px;
+
+}
+
+img {
+  max-width: 100%;
+}
+  @media (max-width: 1200px) {
+    img {
+      width: 600px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    img {
+      width: 400px;
+    }
+  }
+
+  .table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 800px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #8B0000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #8B0000;
+    color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #FFEFD5;
+}
+
+tr:nth-child(odd) {
+  background-color: #F0FFF0;
+}
